@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">LoginLinearLayout</string>
-    <string name="txtPassword">Introduce la contraseña</string>
-    <string name="txtSignIn">Acceder:</string>
+    <string name="txtSignIn">Acceder</string>
     <string name="txtUser">Nombre de usuario / correo electronico</string>
+    <string name="txtPassword">Contraseña</string>
+    <string name="btnGoogleSignIn">Google</string>
+    <string name="btnFacebookSignIn">Facebook</string>
+    <string name="btnSignUp">Registro</string>
+    <string name="chkRemember">Recordar usuario</string>
+    <string name="btnSignIn">Acceder</string>
 </resources>

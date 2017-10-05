@@ -5,19 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.loginlinearlayout.LoginActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/lly_login_padding">
 
     <TextView
         android:id="@+id/txtSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_marginBottom="@dimen/txtSignIn_margin"
+        android:text="@string/txtSignIn"
+        android:textAppearance="@android:style/TextAppearance.Holo.Light.Large.Inverse" />
 
     <TextView
         android:id="@+id/txtUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:labelFor="@+id/edtUser"
+        android:text="@string/txtUser"
+        android:textAppearance="@android:style/TextAppearance.Holo.Light.Small.Inverse" />
 
     <EditText
         android:id="@+id/edtUser"
@@ -25,60 +31,69 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:layout_marginBottom="@dimen/edtUser_margin"
+        />
 
     <TextView
         android:id="@+id/txtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:labelFor="@+id/edtPassword"
+        android:text="@string/txtPassword"
+        android:textAppearance="@android:style/TextAppearance.Holo.Light.Small.Inverse" />
 
     <EditText
         android:id="@+id/edtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="textPassword"/>
 
     <LinearLayout
         android:id="@+id/llySignInOptions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="@dimen/lly_sign_options_padding"
+        >
 
         <CheckBox
             android:id="@+id/chkRemember"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="CheckBox" />
+            android:text="@string/chkRemember" />
 
         <TextView
             android:id="@+id/txtSignUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/btnSignUp"
+            android:textAppearance="@android:style/TextAppearance.Holo.Light.Small.Inverse" />
 
     </LinearLayout>
 
     <Button
         android:id="@+id/btnSignIn"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/btnSignIn"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/btnSignIn_margin"
+        />
 
     <Button
         android:id="@+id/btnGoogleSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
-
+        android:drawableStart="@drawable/ic_Google"
+        android:text="@string/btnGoogleSignIn" />
     <Button
         android:id="@+id/btnFacebookSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/btnFacebookSignIn"
+        android:drawableStart="@drawable/ic_Facebook"/>
 
 </LinearLayout>
