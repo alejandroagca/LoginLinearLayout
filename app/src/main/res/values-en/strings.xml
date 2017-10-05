@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginLinearLayout</string>
+    <string name="txtSignIn">Sign In:</string>
+    <string name="txtUser">User name / email</string>
+</resources>
