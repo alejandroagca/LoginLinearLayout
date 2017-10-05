@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/txtSignIn_margin"
         android:text="@string/txtSignIn"
-        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
+        android:textAppearance="@android:style/TextAppearance.Large" />
 
     <TextView
         android:id="@+id/txtUser"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:labelFor="@+id/edtUser"
         android:text="@string/txtUser"
-        android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse" />
+        android:textAppearance="@android:style/TextAppearance.Small" />
 
     <EditText
         android:id="@+id/edtUser"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:labelFor="@+id/edtPassword"
         android:text="@string/txtPassword"
-        android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse" />
+        android:textAppearance="@android:style/TextAppearance.Small" />
 
     <EditText
         android:id="@+id/edtPassword"
@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/btnSignUp"
-            android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse" />
+            android:textAppearance="@android:style/TextAppearance.Small" />
     </LinearLayout>
 
     <Button
