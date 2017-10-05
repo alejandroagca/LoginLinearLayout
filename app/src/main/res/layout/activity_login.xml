@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/txtSignIn_margin"
         android:text="@string/txtSignIn"
-        android:textAppearance="@android:style/TextAppearance.Holo.Light.Large.Inverse" />
+        android:textAppearance="@android:style/TextAppearance.Holo.Large.Inverse" />
 
     <TextView
         android:id="@+id/txtUser"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:labelFor="@+id/edtUser"
         android:text="@string/txtUser"
-        android:textAppearance="@android:style/TextAppearance.Holo.Light.Small.Inverse" />
+        android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse" />
 
     <EditText
         android:id="@+id/edtUser"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:labelFor="@+id/edtPassword"
         android:text="@string/txtPassword"
-        android:textAppearance="@android:style/TextAppearance.Holo.Light.Small.Inverse" />
+        android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse" />
 
     <EditText
         android:id="@+id/edtPassword"
@@ -70,30 +70,37 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/btnSignUp"
-            android:textAppearance="@android:style/TextAppearance.Holo.Light.Small.Inverse" />
-
+            android:textAppearance="@android:style/TextAppearance.Holo.Small.Inverse" />
     </LinearLayout>
 
     <Button
         android:id="@+id/btnSignIn"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btnSignIn"
         android:layout_gravity="center"
         android:layout_marginBottom="@dimen/btnSignIn_margin"
-        />
+        android:background="@color/colorFacebook"
+        android:text="@string/btnSignIn" />
 
     <Button
         android:id="@+id/btnGoogleSignIn"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ic_Google"
-        android:text="@string/btnGoogleSignIn" />
+        android:background="@color/colorGoogle"
+        android:drawableStart="@drawable/ic_google"
+        android:text="@string/btnGoogleSignIn"
+        android:layout_marginBottom="@dimen/btnSignInGoogle_margin"
+        />
+
     <Button
         android:id="@+id/btnFacebookSignIn"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnFacebookSignIn"
-        android:drawableStart="@drawable/ic_Facebook"/>
+        android:background="@color/colorFacebook"
+        android:drawableStart="@drawable/ic_facebook"
+        android:text="@string/btnFacebookSignIn" />
 
 </LinearLayout>
