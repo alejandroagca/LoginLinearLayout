@@ -75,7 +75,7 @@
 
     <Button
         android:id="@+id/btnSignIn"
-        style="@style/Widget.AppCompat.Button.Borderless"
+        style="@style/Widget.Button.Transparent"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
