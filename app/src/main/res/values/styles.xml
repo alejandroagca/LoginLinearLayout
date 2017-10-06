@@ -24,4 +24,7 @@
     <style name="LoginEditText">
         <item name="android:padding">7dp</item>
     </style>
+    <style name="LoginCheckBox">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 </resources>
