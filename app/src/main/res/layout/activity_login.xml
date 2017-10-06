@@ -76,7 +76,7 @@
     <Button
         android:id="@+id/btnSignIn"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="@dimen/btnSignIn_margin"
@@ -85,18 +85,17 @@
 
     <Button
         android:id="@+id/btnGoogleSignIn"
-        style="@style/Widget.AppCompat.Button.Borderless"
+        style="@style/Widget.Button.Transparent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorGoogle"
         android:drawableStart="@drawable/ic_google"
         android:text="@string/btnGoogleSignIn"
-        android:layout_marginBottom="@dimen/btnSignInGoogle_margin"
         />
 
     <Button
         android:id="@+id/btnFacebookSignIn"
-        style="@style/Widget.AppCompat.Button.Borderless"
+        style="@style/Widget.Button.Transparent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorFacebook"
