@@ -8,7 +8,6 @@
     android:orientation="vertical"
     android:background="@color/colorPrimary"
     android:padding="@dimen/lly_login_padding">
-
     <TextView
         android:id="@+id/txtSignIn"
         android:layout_width="match_parent"
@@ -67,7 +66,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.8"
-            android:text="@string/chkRemember" />
+            android:text="@string/chkRemember"
+            />
 
         <TextView
             android:id="@+id/txtSignUp"
@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
             android:text="@string/btnSignUp"
-            android:textAppearance="@android:style/TextAppearance.Small" />
+            android:textAppearance="@android:style/TextAppearance.Small"/>
     </LinearLayout>
 
     <Button
@@ -108,3 +108,5 @@
         android:text="@string/btnFacebookSignIn" />
 
 </LinearLayout>
+    <!--Cuidado al aplicar el margen en un estilo en la etique porque se redibuja el componente lo que sobrecarga el layout-->
+

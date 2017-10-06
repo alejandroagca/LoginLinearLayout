@@ -7,6 +7,6 @@
     <string name="btnFacebookSignIn">Login in with Facebook</string>
     <string name="btnGoogleSignIn">Google</string>
     <string name="btnSignIn">Sign In</string>
-    <string name="btnSignUp">Sign Up</string>
+    <string name="btnSignUp"><u>Sign Up</u></string>
     <string name="chkRemember">Remember me</string>
 </resources>
