@@ -24,8 +24,10 @@
     <style name="LoginEditText">
         <item name="android:padding">7dp</item>
     </style>
-    <style name="LoginCheckBox" parent="android:Widget.CompoundButton.CheckBox">
-        <item name="android:checkboxStyle">@android:color/darker_gray</item>
+    <style name="LoginCheckBox">
+        <item name="colorAccent">@android:color/darker_gray</item>
+    </style>
+    <style name="LetrasBlancasCheckBox" parent="android:Widget.CompoundButton.CheckBox">
         <item name="android:textColor">@android:color/white</item>
     </style>
 </resources>
