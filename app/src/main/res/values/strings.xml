@@ -5,7 +5,7 @@
     <string name="txtPassword">Contraseña</string>
     <string name="btnGoogleSignIn">Google</string>
     <string name="btnFacebookSignIn">Acceder con Facebook</string>
-    <string name="btnSignUp"><u>Registro</u></string>
+    <string name="btnSignUp">Registro</string>
     <string name="chkRemember">Recordar usuario</string>
     <string name="btnSignIn">Acceder</string>
 </resources>
